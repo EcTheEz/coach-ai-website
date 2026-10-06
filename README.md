@@ -25,3 +25,4 @@ Lessons and the helper are prepared, rule-based learning aids and work offline; 
 The public site is deployed from the `main` branch root of `EcTheEz/coach-ai-website` using GitHub Pages. Update `index.html`, `style.css`, and `app.js`, then commit to `main`; Pages republishes the static files.
 
 No paid service is needed for this version.
+Voice note: browser speech recognition may rely on that browser's own service and can require microphone permission; read-aloud depends on text-to-speech support. The app's typed coach replies and lesson content are processed in the page.
