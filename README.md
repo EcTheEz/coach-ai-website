@@ -7,7 +7,8 @@ A static student planner hosted with GitHub Pages. There is no paid backend, sig
 - Add, prioritize, complete, and delete coursework with due dates and notes.
 - See upcoming deadlines in the weekly calendar.
 - Track subjects and personal learning activities.
-- Use a small offline study helper for planning and breaking work into next steps.
+- Work through guided math, biology, chemistry, and English lessons with explanations, worked examples, practice, and feedback.
+- Use the offline study helper for basic topic explanations and planning next steps.
 - Export a JSON backup and restore it in another browser.
 - Clear the data stored on the current device.
 
@@ -15,7 +16,7 @@ A static student planner hosted with GitHub Pages. There is no paid backend, sig
 
 Planner data is stored in `localStorage` in the browser. It stays on this device and browser profile, so it does not sync between devices. Anyone using the same browser profile may be able to see it. Export a backup before clearing browser data or switching devices.
 
-The helper is rule-based and works offline; it is not a live Gemini model. A real Gemini service would need secure server-side key handling. GitHub Pages cannot run that server, and putting a shared API key in public browser code would expose it.
+Lessons and the helper are prepared, rule-based learning aids and work offline; they are not a live Gemini model and do not understand every question. A real Gemini service would need secure server-side key handling. GitHub Pages cannot run that server, and putting a shared API key in public browser code would expose it.
 
 ## Hosting
 
