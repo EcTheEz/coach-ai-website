@@ -7,7 +7,7 @@ A static student planner hosted with GitHub Pages. There is no paid backend, sig
 - Add, prioritize, complete, and delete coursework with due dates and notes.
 - See upcoming deadlines in the weekly calendar.
 - Track subjects and personal learning activities.
-- Work through guided math, biology, chemistry, and English lessons with explanations, worked examples, practice, and feedback.
+- Work through guided math, biology, chemistry, and English lessons with explanations, worked examples, three-question practice, and feedback.
 - Save a learning level, subject, topic, and goal to personalize lesson framing and recommendations.
 - Use the offline study helper for basic topic explanations and planning next steps.
 - Use browser speech recognition to ask by voice and optional device text-to-speech to hear replies, when supported by the browser.
