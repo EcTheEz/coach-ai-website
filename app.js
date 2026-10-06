@@ -15,6 +15,11 @@ $('#activityForm').onsubmit=e=>{e.preventDefault();const data=new FormData(e.cur
 const dateKey=d=>{const x=new Date(d);return `${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`};
 const offsetDate=n=>{const d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()+n);return dateKey(d)};
 let assignments=read('coachai.assignments',[]);
+// Remove only the sample records bundled by the old preview; keep student-created work.
+const oldSamples=new Set(['seed-chem','seed-math','seed-bio']);assignments=assignments.filter(a=>!oldSamples.has(a.id));
+const sampleCaptions=new Set(['Bonding · Exam in 12 days','Algebra · Building momentum','Cell biology · On track','Vocabulary · Ready to review']);activities=activities.filter(a=>!sampleCaptions.has(a.caption));
+if(sessions===8&&mastery===68){sessions=0;mastery=0}
+localStorage.setItem('coachai.assignments',JSON.stringify(assignments));localStorage.setItem('coachai.activities',JSON.stringify(activities));localStorage.setItem('coachai.sessions',sessions);localStorage.setItem('coachai.mastery',mastery);
 render();
 let selectedDay=dateKey(new Date());
 function prettyDate(key){return new Intl.DateTimeFormat('en',{weekday:'short',month:'short',day:'numeric'}).format(new Date(`${key}T12:00:00`))}
