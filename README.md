@@ -7,7 +7,7 @@ A static student planner hosted with GitHub Pages. There is no paid backend, sig
 - Add, prioritize, complete, and delete coursework with due dates and notes.
 - See upcoming deadlines in the weekly calendar.
 - Track subjects and personal learning activities.
-- Browse a study library with topic notes, question sets, a 10-question target test, and flip cards.
+- Browse 15 original starter topics across Math, Biology, Chemistry, and English, with revision notes, question sets, flashcards, and a mixed target test. Choose a subject for a longer focused test.
 - Work through guided math, biology, chemistry, and English lessons with explanations, worked examples, three-question practice, and feedback.
 - Save a Cambridge IGCSE course profile, level, subject, topic, and goal to personalize lesson framing and recommendations.
 - Get weaker topics sorted to the top using practice results stored in the browser.
